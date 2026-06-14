@@ -1,3 +1,6 @@
 title: Blog de RocCut
 description: Blog personal
 theme: minima
+
+minima:
+  skin: solarized-dark
