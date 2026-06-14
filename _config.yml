@@ -3,4 +3,4 @@ description: Blog personal
 theme: minima
 
 minima:
-  skin: solarized-dark
+  skin: dark
