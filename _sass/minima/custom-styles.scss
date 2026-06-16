@@ -1,0 +1,20 @@
+// Forzar modo oscuro en Minima
+body {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+.site-title, .site-nav .page-link, .post-meta, .post-link {
+  color: #e0e0e0 !important;
+}
+a {
+  color: #4da6ff !important;
+}
+.site-header {
+  border-top: 5px solid #4da6ff !important;
+  background-color: #1a1a1a !important;
+  border-bottom: 1px solid #2d2d2d !important;
+}
+.site-footer {
+  background-color: #1a1a1a !important;
+  border-top: 1px solid #2d2d2d !important;
+}
