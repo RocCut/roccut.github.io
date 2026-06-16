@@ -5,3 +5,7 @@ remote_theme: jekyll/minima
 
 minima:
   skin: dark
+
+# ESTO ES CLAVE: Le avisa a GitHub que use el plugin
+plugins:
+  - jekyll-remote-theme
