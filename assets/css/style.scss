@@ -1,26 +1,27 @@
 ---
 ---
-
 @import "minima";
 
-:root {
-  --bg-color: #ffffff;
-  --text-color: #111111;
-  --link-color: #2a7ae2;
-}
-
-[data-theme="dark"] {
-  --bg-color: #1a1a1a;
-  --text-color: #f0f0f0;
-  --link-color: #6db3f2;
-}
-
+// Forzar modo oscuro total
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: background-color 0.3s, color 0.3s;
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
 }
-
+.site-title, .site-nav .page-link, .post-meta, .post-link {
+  color: #e0e0e0 !important;
+}
 a {
-  color: var(--link-color);
+  color: #4da6ff !important;
+}
+.site-header {
+  border-top: 5px solid #4da6ff !important;
+  background-color: #1a1a1a !important;
+  border-bottom: 1px solid #2d2d2d !important;
+}
+.site-footer {
+  background-color: #1a1a1a !important;
+  border-top: 1px solid #2d2d2d !important;
+}
+.post-content h1, .post-content h2, .post-content h3, .post-content h4 {
+  color: #ffffff !important;
 }
