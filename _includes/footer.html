@@ -1,0 +1,75 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Importar la fuente 'Caveat' (Manuscrita elegante y fina) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+
+<!-- Estilos forzados: Modo Oscuro + Letra Estilizada en Títulos -->
+<style>
+  body {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+  }
+  .site-title, .site-nav .page-link, .post-meta, .post-link, .site-header .site-title, .post-title {
+    color: #e0e0e0 !important;
+  }
+  a {
+    color: #4da6ff !important;
+  }
+  .site-header {
+    border-top: 5px solid #4da6ff !important;
+    background-color: #1a1a1a !important;
+    border-bottom: 1px solid #2d2d2d !important;
+  }
+  .site-footer {
+    background-color: #1a1a1a !important;
+    border-top: 1px solid #2d2d2d !important;
+  }
+  .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content p, .post-content li, .post-content {
+    color: #ffffff !important;
+  }
+  .wrapper {
+    background-color: #121212 !important;
+  }
+
+  /* Aplicar Caveat solo a los títulos con el formato original respetado */
+  .site-title, .post-title, .post-link, .post-content h1, .post-content h2, .footer-heading {
+    font-family: 'Caveat', cursive !important;
+    font-weight: 700 !important;
+    font-size: 2.2rem !important;
+  }
+  .post-link {
+    font-size: 1.5rem !important;
+  }
+  </style>
