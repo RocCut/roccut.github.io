@@ -1,4 +1,4 @@
-<footer class="site-footer h-card">
+į<footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
@@ -72,12 +72,22 @@
   .post-link {
     font-size: 1.5rem !important;
   }
-  /* Píldoras de código en gris oscuro con letras blancas */
+  /* Píldoras de código en todo el blog (Paleta Dracula) */
   code {
-    background-color: #252525 !important; /* Gris oscuro sutil */
-    color: #ffffff !important;            /* Letras blancas puras */
-    padding: 3px 6px !important;          /* Espaciado para que quede redondita */
-    border-radius: 4px !important;        /* Bordes suavemente redondeados */
-    font-size: 0.9em !important;          /* Tamaño equilibrado */
+    background-color: #282a36 !important; /* Fondo oscuro Dracula */
+    color: #f8f8f2 !important;            /* Texto claro Dracula */
+    border: 1px solid #bd93f9 !important; /* Borde violeta Dracula */
+    padding: 3px 6px !important;
+    border-radius: 4px !important;
+    font-size: 0.9em !important;
+  }
+
+  /* Líneas divisorias --- en color Violeta Dracula */
+  hr {
+    background-color: #bd93f9 !important; /* Color de relleno */
+    border: none !important;              /* Saca el borde gris por defecto */
+    height: 2px !important;               /* Grosor de la línea */
+    margin: 2em 0 !important;             /* Espaciado arriba y abajo */
+    opacity: 1 !important;                /* Que brille bien el color */
   }
   </style>
