@@ -30,64 +30,89 @@
   </div>
 </footer>
 
-<!-- Importar la fuente 'Caveat' (Manuscrita elegante y fina) -->
+<!-- Importar Fira Code desde Google Fonts para TODO el blog -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
 
-<!-- Estilos forzados: Modo Oscuro + Letra Estilizada en Títulos -->
+<!-- Estilos Completos Paleta Dracula + Fira Code -->
 <style>
-  body {
-    background-color: #121212 !important;
-    color: #e0e0e0 !important;
+  /* Todo el cuerpo del blog con Fira Code y fondo Dracula oficial */
+  body, html, p, li, span, time {
+    background-color: #282a36 !important; /* Gris violáceo Dracula */
+    color: #f8f8f2 !important;            /* Blanco brillante Dracula */
+    font-family: 'Fira Code', monospace !important;
+    font-size: 16px !important;
   }
-  .site-title, .site-nav .page-link, .post-meta, .post-link, .site-header .site-title, .post-title {
-    color: #e0e0e0 !important;
-  }
-  a {
-    color: #4da6ff !important;
-  }
-  .site-header {
-    border-top: 5px solid #4da6ff !important;
-    background-color: #1a1a1a !important;
-    border-bottom: 1px solid #2d2d2d !important;
-  }
-  .site-footer {
-    background-color: #1a1a1a !important;
-    border-top: 1px solid #2d2d2d !important;
-  }
-  .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content p, .post-content li, .post-content {
-    color: #ffffff !important;
-  }
-  .wrapper {
-    background-color: #121212 !important;
+  
+  /* Títulos principales y enlaces en Fira Code Bold */
+  .site-title, .post-title, .post-link, .post-content h1, .post-content h2, .post-content h3, .footer-heading {
+    font-family: 'Fira Code', monospace !important;
+    font-weight: 700 !important;
+    color: #f8f8f2 !important;
   }
 
-  /* Aplicar Caveat solo a los títulos con el formato original respetado */
-  .site-title, .post-title, .post-link, .post-content h1, .post-content h2, .footer-heading {
-    font-family: 'Caveat', cursive !important;
-    font-weight: 700 !important;
-    font-size: 2.2rem !important;
+  .site-title {
+    font-size: 1.8rem !important;
+    letter-spacing: -0.5px;
   }
+
+  .post-title {
+    font-size: 2rem !important;
+  }
+
+  /* Enlaces generales en el color Cian de Dracula */
+  a {
+    color: #8be9fd !important;
+    font-family: 'Fira Code', monospace !important;
+  }
+  
+  /* Enlaces de los posts en la lista principal */
   .post-link {
-    font-size: 1.5rem !important;
+    color: #f8f8f2 !important;
+    text-decoration: none;
   }
-  /* Píldoras de código en todo el blog (Paleta Dracula) */
+  .post-link:hover {
+    color: #bd93f9 !important; /* Pasa a violeta al apoyar el dedo/mouse */
+  }
+
+  /* Píldoras de código en línea (comillas invertidas) */
   code {
-    background-color: #282a36 !important; /* Fondo oscuro Dracula */
-    color: #f8f8f2 !important;            /* Texto claro Dracula */
-    border: 1px solid #bd93f9 !important; /* Borde violeta Dracula */
+    background-color: #1e1f29 !important; /* Fondo más oscuro para contraste */
+    color: #ff79c6 !important;            /* Texto Rosa Dracula */
+    border: 1px solid #bd93f9 !important; /* Borde Violeta Dracula */
     padding: 3px 6px !important;
     border-radius: 4px !important;
     font-size: 0.9em !important;
   }
 
-  /* Líneas divisorias --- en color Violeta Dracula */
+  /* Líneas divisorias --- en Violeta Dracula */
   hr {
-    background-color: #bd93f9 !important; /* Color de relleno */
-    border: none !important;              /* Saca el borde gris por defecto */
-    height: 2px !important;               /* Grosor de la línea */
-    margin: 2em 0 !important;             /* Espaciado arriba y abajo */
-    opacity: 1 !important;                /* Que brille bien el color */
+    background-color: #bd93f9 !important;
+    border: none !important;
+    height: 2px !important;
+    margin: 2em 0 !important;
+    opacity: 1 !important;
   }
-  </style>
+
+  /* Cabecera y Pie de página con estilo Dracula */
+  .site-header {
+    background-color: #1e1f29 !important;
+    border-bottom: 1px solid #44475a !important;
+    border-top: 5px solid #bd93f9 !important; /* Línea superior violeta */
+  }
+  
+  .site-footer {
+    background-color: #1e1f29 !important;
+    border-top: 1px solid #44475a !important;
+  }
+
+  .site-nav .page-link, .post-meta {
+    color: #6272a4 !important; /* Gris azulado para datos secundarios */
+    font-family: 'Fira Code', monospace !important;
+  }
+
+  .wrapper {
+    background-color: transparent !important;
+  }
+      </style>
