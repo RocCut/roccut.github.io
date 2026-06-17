@@ -35,14 +35,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
 
-<!-- Estilos Completos Paleta Dracula + Fira Code -->
+<!-- Estilos Completos Paleta Dracula + Ligaduras Activas -->
 <style>
-  /* Todo el cuerpo del blog con Fira Code y fondo Dracula oficial */
-  body, html, p, li, span, time {
+  /* ACTIVAR LIGADURAS EN TODO EL BLOG (Flechas y símbolos mágicos) */
+  body, html, p, li, span, time, code, pre {
     background-color: #282a36 !important; /* Gris violáceo Dracula */
     color: #f8f8f2 !important;            /* Blanco brillante Dracula */
     font-family: 'Fira Code', monospace !important;
     font-size: 16px !important;
+    
+    /* Activa la fusión de símbolos como ->, !=, >=, == */
+    font-variant-ligatures: common-ligatures !important;
+    text-rendering: optimizeLegibility !important;
   }
   
   /* Títulos principales y enlaces en Fira Code Bold */
@@ -67,18 +71,17 @@
     font-family: 'Fira Code', monospace !important;
   }
   
-  /* Enlaces de los posts en la lista principal */
   .post-link {
     color: #f8f8f2 !important;
     text-decoration: none;
   }
   .post-link:hover {
-    color: #bd93f9 !important; /* Pasa a violeta al apoyar el dedo/mouse */
+    color: #bd93f9 !important; /* Pasa a violeta al pasar el dedo/mouse */
   }
 
-  /* Píldoras de código en línea (comillas invertidas) */
+  /* Píldoras de código en línea */
   code {
-    background-color: #1e1f29 !important; /* Fondo más oscuro para contraste */
+    background-color: #1e1f29 !important;
     color: #ff79c6 !important;            /* Texto Rosa Dracula */
     border: 1px solid #bd93f9 !important; /* Borde Violeta Dracula */
     padding: 3px 6px !important;
@@ -99,7 +102,7 @@
   .site-header {
     background-color: #1e1f29 !important;
     border-bottom: 1px solid #44475a !important;
-    border-top: 5px solid #bd93f9 !important; /* Línea superior violeta */
+    border-top: 5px solid #bd93f9 !important;
   }
   
   .site-footer {
@@ -108,11 +111,11 @@
   }
 
   .site-nav .page-link, .post-meta {
-    color: #6272a4 !important; /* Gris azulado para datos secundarios */
+    color: #6272a4 !important; /* Gris azulado para data secundaria */
     font-family: 'Fira Code', monospace !important;
   }
 
   .wrapper {
     background-color: transparent !important;
   }
-      </style>
+    </style>
