@@ -1,3 +1,0 @@
-# No tengo idea
-Le estuve modificando a mi blog con instrucciones de inteligencia artificial y me enredé.
-Con todo estos estilos que le fui poniendo creo que ya está => Espero... !=
