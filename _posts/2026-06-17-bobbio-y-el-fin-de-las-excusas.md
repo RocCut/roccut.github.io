@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: "Bobbio y el fin de las excusas"
 date: 2026-06-17
 ---
