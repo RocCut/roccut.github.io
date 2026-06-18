@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Bobbio y el fin de las excusas"
+title: "Bobbio y el fin de las excusas: ¿Por qué dejamos de buscar el origen de los derechos para empezar a defenderlos?"
 date: 2026-06-17
 ---
-
-## Bobbio y el fin de las excusas: ¿Por qué dejamos de buscar el origen de los derechos para empezar a defenderlos?
 
 Estaba repasando a Norberto Bobbio y te juro que me voló la cabeza. Siempre nos volvemos locos buscando el origen último de los derechos, pero este tipo dice que esa es una pérdida de tiempo. Lo que realmente importa no es de dónde vienen, sino cómo evitar que nos los quiten. Es un cambio de foco total: pasamos de la teoría pura a la urgencia de la defensa real.
 
