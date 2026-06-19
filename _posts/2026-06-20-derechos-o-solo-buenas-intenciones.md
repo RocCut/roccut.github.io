@@ -34,3 +34,6 @@ Su gran aporte es decirnos que, en el fondo, lo que realmente justifica un derec
 En definitiva, De Lucas nos invita a ser más precisos: una cosa es que algo sea una necesidad humana urgente y otra muy distinta es que el sistema jurídico tenga las herramientas para garantizarlo como un derecho efectivo.
 
 **Y vos, ¿qué pensás? ¿Creés que llamar "derecho" a cualquier necesidad ética ayuda a conseguirla más rápido, o solo genera una ilusión que termina confundiendo a la justicia?**
+
+---
+**Fuente**: De Lucas, J. (1992). Algunos equívocos sobre el concepto y fundamentación de los derechos humanos. En J. Ballesteros Llompart (Coord.), Derechos humanos: concepto, fundamentos, sujetos (pp. 13-22). Tecnos.
