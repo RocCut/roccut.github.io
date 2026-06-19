@@ -11,7 +11,7 @@ La **Declaración Universal de los Derechos Humanos** no nació de un grupo de f
 
 ---
 
-### ## El circuito de conceptos (Píldoras para entender el mapa)
+### El circuito de conceptos (Píldoras para entender el mapa)
 
 Para que este blog no sea un manual aburrido, vamos a desglosar las ideas fuerza que sostienen esta arquitectura:
 
@@ -32,3 +32,6 @@ Si perdemos de vista este mapa, volvemos a la ley de la selva. La gran lección 
 
 ### Cierre
 Este documento es el recordatorio de que, aunque hablemos distintos idiomas o tengamos distintas realidades, hay un **básico** en el que ya nos pusimos de acuerdo para no repetir el desastre. La pregunta ahora es para vos: **En un mundo tan hiperconectado pero a la vez tan fragmentado, ¿estamos haciendo lo suficiente para que este "ideal común" no se convierta en una pieza de museo?**
+
+---
+**Fuente**: Asamblea General de las Naciones Unidas. (1948). Declaración Universal de los Derechos Humanos (Resolución 217 A [III])
