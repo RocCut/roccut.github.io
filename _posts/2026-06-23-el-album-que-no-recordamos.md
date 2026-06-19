@@ -41,3 +41,6 @@ Para que la nación funcione, estas tragedias deben ser "olvidadas/recordadas" c
 En resumen, no nacemos siendo parte de una nación; aprendemos a serlo a través de una historia que otros escribieron para unir nuestros pedazos de memoria olvidados. La nación no es un objeto, es un relato que nos permite sentir que no estamos solos en el tiempo.
 
 **Para cerrar, te dejo una pregunta para pensar:** Si mañana todos perdiéramos la memoria y se quemaran todos los libros de historia, ¿seguiría existiendo tu país o solo seríamos un grupo de desconocidos viviendo en el mismo lugar?
+
+---
+**Fuente**: Anderson, B. (1993). Comunidades imaginadas: Reflexiones sobre el origen y la difusión del nacionalismo (E. L. Suárez, Trad.). Fondo de Cultura Económica. 
