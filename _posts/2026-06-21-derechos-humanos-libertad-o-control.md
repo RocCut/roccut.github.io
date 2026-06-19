@@ -35,3 +35,6 @@ La `historización` de los conceptos, que Gándara toma de Ignacio Ellacuría, n
 En definitiva, los derechos humanos son una `invención cultural` y, como todo invento, podemos mejorarlo, cambiarlo y usarlo para liberar. No son un punto de partida, sino un punto de llegada de nuestras luchas. El desafío es no dejar que se conviertan en una pieza de museo, sino mantenerlos como un fuego que alimente nuevas formas de vida digna.
 
 **Y vos, ¿creés que el lenguaje de los derechos humanos todavía sirve para hacer una revolución, o ya lo colonizó el mercado?**
+
+---
+**Fuente**: Gándara Carballido, M. E. (2019). La disputa en torno a la concepción de derechos humanos. *En* Los derechos humanos en el siglo XXI: Una mirada desde el pensamiento crítico (pp. 89-118). CLACSO
