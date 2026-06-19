@@ -37,4 +37,4 @@ La política no es solo poder o coerción; son `decisiones colectivizadas sobera
 **Y vos, ¿creés que la política hoy está ganando terreno en nuestras vidas o que se está diluyendo tanto que ya no sabemos dónde encontrarla?**
 
 ---
-**Fuente**: Sartori, G. (2002) ¿Qué es la política? *en* La política: lógica y método en las ciencias sociales
+**Fuente**: Sartori, G. (1979) ¿Qué es la política? *en* La política: lógica y método en las ciencias sociales. Fondo de Cultura Económica. México.
