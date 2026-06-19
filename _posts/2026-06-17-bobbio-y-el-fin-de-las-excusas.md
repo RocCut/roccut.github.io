@@ -39,3 +39,6 @@ El gran desafío hoy es que los organismos internacionales tienen una `vis direc
 Los derechos humanos son un proceso abierto y sus tablas no están esculpidas de una vez para siempre. Son la conciencia histórica de nuestra época, pero su protección real depende de que logremos pasar de la garantía dentro del Estado a la garantía contra el Estado cuando este se vuelve opresor.
 
 ¿Creés que las garantías internacionales que tenemos hoy, basadas más en la influencia que en el poder real, son suficientes para frenar a un Estado que decide violar nuestros derechos?
+
+---
+**Fuente**: Bobbio, N. (1991). Sobre el fundamento de los derechos del hombre (Cap. III) y Presente y porvenir de los derechos humanos (Cap. IV). *En* El tiempo de los derechos (pp. 53-84). Madrid, España: Editorial Sistema.
