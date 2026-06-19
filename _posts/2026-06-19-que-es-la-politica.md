@@ -35,3 +35,6 @@ Esto es clave para entender nuestro mundo: en una democracia, la verticalidad es
 La política no es solo poder o coerción; son `decisiones colectivizadas soberanas` que nos afectan a todos y que son tomadas por personal ubicado en un dominio específico. Si todo es política, nada es política. 
 
 **Y vos, ¿creés que la política hoy está ganando terreno en nuestras vidas o que se está diluyendo tanto que ya no sabemos dónde encontrarla?**
+
+---
+**Fuente**: Sartori, G. (2002) ¿Qué es la política? *en* La política: lógica y método en las ciencias sociales
