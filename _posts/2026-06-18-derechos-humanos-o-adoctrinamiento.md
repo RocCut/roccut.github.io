@@ -29,3 +29,7 @@ Hoy en día, en un mundo lleno de discursos que intentan vaciar de contenido a l
 En definitiva, la enseñanza del derecho debe ser contextualizada, reflexiva y, por sobre todo, humana. Solo a través de una práctica `dialógica` y honesta se puede evitar caer nuevamente en los horrores del pasado.
 
 **Y vos, ¿creés que es posible defender la justicia desde una posición neutral cuando se violan derechos fundamentales?**
+
+---
+
+**Fuente**: Piñero, M. T. y Crisafulli, L. Derechos Humanos en abogacía: *¿educación o adoctrinamiento?*
