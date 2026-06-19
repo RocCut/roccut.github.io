@@ -35,3 +35,7 @@ Todorov no se queda en la queja. Propone un `humanismo crítico` que no impone c
 **Reflexión final:** Hoy, con las redes sociales amplificando nuestras burbujas, es más fácil que nunca ser un etnocentrista sin saberlo. Todorov nos invita a usar la `moderación` y a entender que nuestra cultura es el camino para llegar a lo universal, pero no es el destino final.
 
 **¿Es posible realmente juzgar otra cultura sin ser etnocentristas, o estamos condenados a ver el mundo siempre desde nuestro propio ombligo?**
+
+---
+**Fuente**: Todorov, T. (1991). Etnocentrismo. *En* Nosotros y los otros: Reflexión sobre la diversidad humana (pp. 21-32). Siglo XXI Editores.
+Todorov, T. (1991). El cientificismo. *En* Nosotros y los otros: Reflexión sobre la diversidad humana (pp. 21-32). Siglo XXI Editores.
