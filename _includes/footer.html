@@ -35,7 +35,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
 
-<!-- Estilos Completos Paleta Dracula + Ligaduras Activas -->
+<!-- Estilos Completos Paleta Dracula + Tablas Optimizadas -->
 <style>
   /* ACTIVAR LIGADURAS EN TODO EL BLOG (Flechas y símbolos mágicos) */
   body, html, p, li, span, time, code, pre {
@@ -43,8 +43,6 @@
     color: #f8f8f2 !important;            /* Blanco brillante Dracula */
     font-family: 'Fira Code', monospace !important;
     font-size: 16px !important;
-    
-    /* Activa la fusión de símbolos como ->, !=, >=, == */
     font-variant-ligatures: common-ligatures !important;
     text-rendering: optimizeLegibility !important;
   }
@@ -76,8 +74,48 @@
     text-decoration: none;
   }
   .post-link:hover {
-    color: #bd93f9 !important; /* Pasa a violeta al pasar el dedo/mouse */
+    color: #bd93f9 !important;
   }
+
+  /* ==========================================
+     NUEVO ESTILO PARA LAS TABLAS (ESTILO DRACULA)
+     ========================================== */
+  table {
+    background-color: #1e1f29 !important; /* Fondo gris oscuro oficial */
+    color: #f8f8f2 !important;            /* Letras blancas/claras */
+    border-collapse: collapse !important;
+    border: 1px solid #44475a !important; /* Borde general intermedio */
+    margin: 30px 0 !important;
+    width: 100% !important;
+  }
+
+  /* Encabezados de la tabla (Th) */
+  table th {
+    background-color: #1e1f29 !important; 
+    color: #f8f8f2 !important;            /* Texto claro en títulos */
+    font-weight: 700 !important;
+    border: 1px solid #44475a !important;
+    padding: 12px !important;
+  }
+
+  /* Celdas de datos (Td) */
+  table td {
+    background-color: #1e1f29 !important; /* Forzar fondo oscuro en todas las filas */
+    color: #f8f8f2 !important;            /* Forzar texto claro en todas las filas */
+    border: 1px solid #44475a !important;
+    padding: 12px !important;
+  }
+
+  /* Quitar los fondos grises/blancos alternados que pone Jekyll por defecto */
+  table tr, table tr:nth-child(even), table tr:td {
+    background-color: #1e1f29 !important;
+  }
+
+  /* Resaltado sutil al pasar el cursor sobre una fila (opcional) */
+  table tr:hover {
+    background-color: #282a36 !important;
+  }
+  /* ========================================== */
 
   /* Píldoras de código en línea */
   code {
@@ -115,17 +153,16 @@
     font-family: 'Fira Code', monospace !important;
   }
 
+  /* Hacer visible el menú de hamburguesa en el celular */
+  .menu-icon svg {
+    fill: #bd93f9 !important;
+  }
+  
+  .trigger {
+    background-color: #1e1f29 !important;
+  }
+
   .wrapper {
     background-color: transparent !important;
   }
-
-  /* Hacer visible el menú de hamburguesa en el celular */
-  .menu-icon svg {
-    fill: #bd93f9 !important; /* Pinta las tres rayitas de Violeta Dracula */
-  }
-  
-  /* Color de los enlaces del menú desplegado en mobile */
-  .trigger {
-    background-color: #1e1f29 !important; /* Fondo oscuro para el despliegue */
-  }
-    </style>
+</style>
