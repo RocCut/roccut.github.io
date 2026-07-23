@@ -15,7 +15,7 @@ Diseños propios de llaveros en 3D, listos para descargar e imprimir. Todos grat
 
 Placa de llavero con el nombre en relieve.
 
-[Descargar en Cults3D](PEGAR-LINK-ELENA)
+[Descargar en Cults3D](https://cults3d.com/:4701210)
 
 ---
 
@@ -23,7 +23,7 @@ Placa de llavero con el nombre en relieve.
 
 Placa de llavero con el nombre en relieve.
 
-[Descargar en Cults3D](PEGAR-LINK-MARIA)
+[Descargar en Cults3D](https://cults3d.com/:4701162)
 
 ---
 
@@ -31,7 +31,7 @@ Placa de llavero con el nombre en relieve.
 
 Placa de llavero con el nombre en relieve.
 
-[Descargar en Cults3D](PEGAR-LINK-NESTOR)
+[Descargar en Cults3D](https://cults3d.com/:4701107)
 
 ---
 
@@ -39,7 +39,7 @@ Placa de llavero con el nombre en relieve.
 
 Placa de llavero con el nombre en relieve.
 
-[Descargar en Cults3D](PEGAR-LINK-GERAL)
+[Descargar en Cults3D](https://cults3d.com/:4700426)
 
 ---
 
@@ -47,7 +47,7 @@ Placa de llavero con el nombre en relieve.
 
 Placa de llavero con el nombre en relieve.
 
-[Descargar en Cults3D](PEGAR-LINK-AGUS)
+[Descargar en Cults3D](https://cults3d.com/:4700413)
 
 ---
 
@@ -55,7 +55,7 @@ Placa de llavero con el nombre en relieve.
 
 Placa de llavero con el nombre en relieve.
 
-[Descargar en Cults3D](PEGAR-LINK-AYLEN)
+[Descargar en Cults3D](https://cults3d.com/:4700383)
 
 ---
 
@@ -63,5 +63,5 @@ Placa de llavero con el nombre en relieve.
 
 Placa de llavero con el nombre en relieve.
 
-[Descargar en Cults3D](PEGAR-LINK-MARTIN)
+[Descargar en Cults3D](https://cults3d.com/:4700348)
 
