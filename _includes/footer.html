@@ -28,8 +28,18 @@
       </div>
     </div>
   </div>
-  <a href='https://cafecito.app/roccut' class="floating-donate" uñrel='noopener' target='_blank'><img srcset='https://cdn.cafecito.app/imgs/buttons/button_3.png 1x, https://cdn.cafecito.app/imgs/buttons/button_3_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_3_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_3.png' alt='Invitame un café en cafecito.app' /></a>
-</footer>
+  <div class="floating-cafecito">
+  <a href="https://cafecito.app/roccut" rel="noopener" target="_blank">
+    <img
+      srcset="
+      https://cdn.cafecito.app/imgs/buttons/button_3.png 1x,
+      https://cdn.cafecito.app/imgs/buttons/button_3_2x.png 2x,
+      https://cdn.cafecito.app/imgs/buttons/button_3_3.75x.png 3.75x"
+      src="https://cdn.cafecito.app/imgs/buttons/button_3.png"
+      alt="Invitame un café en Cafecito">
+  </a>
+  </div>
+  </footer>
 
 <!-- Importar Fira Code desde Google Fonts para TODO el blog -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -167,21 +177,23 @@
     background-color: transparent !important;
   }
 
-  .floating-donate {
+  .floating-cafecito {
   position: fixed;
-  right: 20px;
   bottom: 20px;
-  background: #7c3aed;
-  color: white;
-  padding: 12px 18px;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 600;
-  box-shadow: 0 4px 12px rgba(0,0,0,.3);
+  right: 20px;
   z-index: 9999;
 }
 
-.floating-donate:hover {
-  background: #6d28d9;
+.floating-cafecito img {
+  width: 180px;
+  max-width: 45vw;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.25);
+  transition: transform .2s ease;
 }
+
+.floating-cafecito img:hover {
+  transform: scale(1.05);
+  }
 </style>
