@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!input || !results) return;
 
   try {
-    const response = await fetch(
-      document.querySelector('script[src*="search.js"]').src
-        .replace("search.js", "search.json")
-    );
+    const script = 
+      document.querySelector('script[src*="search.js"]');
+    const response = await 
+      fetch(script.dataset.index);
 
     if (!response.ok) {
       throw new Error("No se pudo cargar el índice");
