@@ -3,7 +3,9 @@ layout: post
 title: "Cómo empecé este blog"
 date: 2026-06-15
 categories: [Comunicación] 
-tags: [prueba, bauman, notas-de-estudio]
+tags:
+  - notas-de-estudio
+  - prueba
 ---
 
 ¡Hola! Este es mi segundo post en **RocCut**.
