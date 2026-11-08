@@ -10,7 +10,7 @@ permalink: /tags/
   <!-- Índice rápido de etiquetas al inicio -->
   <div class="tags-nav">
     {% for tag in site.tags %}
-      {% assign tag_name = tag[0] %}
+      {% assign tag_name = tag | first %}
       {% assign tag_slug = tag_name | slugify %}
       {% assign posts = tag[1] %}
       <a href="#{{ tag_slug }}" class="tag-pill-nav">#{{ tag_name }} ({{ posts.size }})</a>
