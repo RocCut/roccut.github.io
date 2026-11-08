@@ -307,4 +307,113 @@
   .floating-cafecito img:hover {
     transform: scale(1.05);
   }
+
+  
+/* =====================================
+   BUSCADOR - DISEÑO DRACULA
+   ===================================== */
+
+.search-container {
+  background: #1e1f29 !important;
+  border: 1px solid #44475a !important;
+  border-top: 4px solid #bd93f9 !important;
+  border-radius: 14px !important;
+  padding: 24px !important;
+  margin: 25px auto !important;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.25) !important;
+}
+
+.search-container h2 {
+  color: #bd93f9 !important;
+  font-family: 'Fira Code', monospace !important;
+  font-size: 1.3rem !important;
+  margin-bottom: 18px !important;
+}
+
+#search-input {
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  padding: 14px 16px !important;
+  background: #282a36 !important;
+  color: #f8f8f2 !important;
+  border: 2px solid #6272a4 !important;
+  border-radius: 10px !important;
+  font-family: 'Fira Code', monospace !important;
+  font-size: 15px !important;
+  outline: none !important;
+  transition: border-color 0.2s ease !important;
+}
+
+#search-input:focus {
+  border-color: #bd93f9 !important;
+  box-shadow: 0 0 0 3px rgba(189, 147, 249, 0.15) !important;
+}
+
+#search-input::placeholder {
+  color: #6272a4 !important;
+}
+
+#search-results {
+  margin-top: 22px !important;
+}
+
+.search-result {
+  background: #282a36 !important;
+  border: 1px solid #44475a !important;
+  border-left: 4px solid #8be9fd !important;
+  border-radius: 10px !important;
+  padding: 16px !important;
+  margin-bottom: 14px !important;
+  transition: transform 0.2s ease, border-color 0.2s ease !important;
+}
+
+.search-result:hover {
+  transform: translateY(-2px);
+  border-left-color: #bd93f9 !important;
+}
+
+.search-result h3 {
+  margin-top: 0 !important;
+  margin-bottom: 8px !important;
+  font-size: 1.05rem !important;
+}
+
+.search-result h3 a {
+  color: #8be9fd !important;
+  text-decoration: none !important;
+}
+
+.search-result h3 a:hover {
+  color: #bd93f9 !important;
+}
+
+.search-result small {
+  color: #6272a4 !important;
+}
+
+.search-result p {
+  color: #f8f8f2 !important;
+  line-height: 1.6 !important;
+  margin-bottom: 0 !important;
+}
+
+#search-results > p {
+  color: #bd93f9 !important;
+  text-align: center !important;
+  padding: 12px !important;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+  .search-container {
+    padding: 16px !important;
+    margin: 15px auto !important;
+  }
+
+  #search-input {
+    font-size: 14px !important;
+  }
+}
+
 </style>
