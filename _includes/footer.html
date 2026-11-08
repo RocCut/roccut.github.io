@@ -40,20 +40,7 @@
     </div>
 
     <!-- Sección de Entradas Relacionadas (Solo se muestra en publicaciones) -->
-   <!-- {% if page.layout == "post" %}
-    <div class="related-posts-box">
-      <h3 class="footer-subheading">⚡ Entradas relacionadas</h3>
-      <ul class="related-posts-list">
-        {% for post in site.related_posts limit:3 %}
-          <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-        {% empty %}
-          <li><span style="color: #6272a4;">Próximamente más apuntes sobre este tema.</span></li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endif %}-->
+   
     {% if page.layout == "post" %}
 <div class="related-posts-box">
   <h3 class="footer-subheading">⚡ Entradas relacionadas</h3>
