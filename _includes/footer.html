@@ -40,7 +40,7 @@
     </div>
 
     <!-- Sección de Entradas Relacionadas (Solo se muestra en publicaciones) -->
-    {% if page.layout == "post" %}
+   <!-- {% if page.layout == "post" %}
     <div class="related-posts-box">
       <h3 class="footer-subheading">⚡ Entradas relacionadas</h3>
       <ul class="related-posts-list">
@@ -53,7 +53,29 @@
         {% endfor %}
       </ul>
     </div>
+    {% endif %}-->
+    {% if page.layout == "post" %}
+<div class="related-posts-box">
+  <h3 class="footer-subheading">⚡ Entradas relacionadas</h3>
+  <ul class="related-posts-list">
+    {% assign related = site.related_posts | slice: 0, 3 %}
+
+    {% if related.size > 0 %}
+      {% for post in related %}
+        <li>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    {% else %}
+      <li>
+        <span>Próximamente más apuntes sobre este tema.</span>
+      </li>
     {% endif %}
+  </ul>
+</div>
+{% endif %}
   </div>
 
   <div class="floating-cafecito">
