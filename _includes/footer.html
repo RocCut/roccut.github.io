@@ -1,3 +1,45 @@
+<!-- TEMAS DE ESTUDIO -->
+<div class="wrapper">
+  <div class="footer-col footer-col-3">
+    <h3 class="footer-subheading">Temas de estudio</h3>
+
+    <div class="footer-tags">
+      {% for tag in site.tags %}
+        {% assign tag_name = tag | first %}
+        {% assign tag_slug = tag_name | slugify %}
+
+        <a href="{{ '/tags/' | relative_url }}#{{ tag_slug }}"
+           class="tag-pill">
+          #{{ tag_name }}
+        </a>
+      {% else %}
+        <span>Aún no hay etiquetas.</span>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% if page.layout == "post" %}
+    <div class="related-posts-box">
+      <h3 class="footer-subheading">⚡ Entradas relacionadas</h3>
+      <ul class="related-posts-list">
+        {% assign related = site.related_posts | slice: 0, 3 %}
+
+        {% if related.size > 0 %}
+          {% for post in related %}
+            <li>
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+            </li>
+          {% endfor %}
+        {% else %}
+          <li>Próximamente más apuntes sobre este tema.</li>
+        {% endif %}
+      </ul>
+    </div>
+  {% endif %}
+</div>
+
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
