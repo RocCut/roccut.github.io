@@ -2,6 +2,10 @@
 layout: post
 title: "Este post es de prueba"
 date: 2026-06-14
+tags:
+  - prueba
+  - post
+  - nuevo
 ---
 
 ¡Hola! Bienvenido/a a **RocCut**.
