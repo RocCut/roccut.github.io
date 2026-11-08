@@ -20,4 +20,7 @@ permalink: /search/
   </div>
 </div>
 
-<script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+<script
+  src="{{ '/assets/js/search.js' | relative_url }}"
+  data-index="{{ '/search.json' | relative_url }}">
+</script>
